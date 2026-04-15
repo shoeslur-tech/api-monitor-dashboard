@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API Monitor Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>API Monitor Dashboard</h1>
+  <div id="alertContainer"></div>
+  <section class="form-section">
+    <h2>Add Monitor</h2>
+    <form id="monitorForm">
+      <input type="text" id="name" placeholder="Monitor name" required />
+      <input type="text" id="url" placeholder="https://example.com" required />
+      <button type="submit">Add Monitor</button>
+    </form>
+  </section>
+
+  <section class="list-section">
+    <h2>Monitors</h2>
+    <button type="button" id="refreshButton">Refresh</button>
+    <div id="monitorList"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
