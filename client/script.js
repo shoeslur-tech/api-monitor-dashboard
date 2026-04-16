@@ -14,7 +14,7 @@ const monitorForm = document.getElementById("monitorForm");
 const monitorList = document.getElementById("monitorList");
 const refreshButton = document.getElementById("refreshButton");
 
-const API_BASE_URL = "http://localhost:5000/api/monitors";
+const API_BASE_URL = "https://api-monitor-dashboard-backend.onrender.com/api/monitors";
 
 const previousStatuses = {};
 const alertContainer = document.getElementById("alertContainer");
